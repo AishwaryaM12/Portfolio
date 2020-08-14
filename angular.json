@@ -121,7 +121,11 @@
           }
         },
         "deploy": {
+<<<<<<< HEAD
           "builder": "@angular/fire:deploy",
+=======
+          "builder": "angular-cli-ghpages:deploy",
+>>>>>>> 9b3ec191789d6a26b712f46d9f8164283d851667
           "options": {}
         }
       }
