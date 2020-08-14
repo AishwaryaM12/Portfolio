@@ -1,0 +1,123 @@
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color 0.5s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: auto;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+a {
+  cursor: pointer;
+}
+.links:hover {
+  background-color: white;
+  color: black;
+}
+.links:hover span {
+  background-color: white;
+  color: black;
+}
+.active{
+  background-color: white;
+  color: black;
+}
+.active span{
+  background-color: white;
+  color: black;
+} 
+.active g{
+  fill: black;
+}
+.open {
+  padding: 16px;
+  padding-top: 0px;
+  margin-bottom: 130%;
+}
+.open:hover {
+  color: grey;
+}
+
+.links:hover g {
+  fill: black;
+}
+.icon {
+  height: 60px;
+}
+.icon svg {
+  margin-top: 15px;
+}
+.icon span {
+  padding: 0;
+}
+.icon a {
+  padding: 16px;
+}
+
+.icon:hover g {
+  fill: black;
+}
+.icon:hover {
+  background-color: white;
+}
+.sidenav a:hover {
+  color: grey;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  height: 100%;
+  position: fixed;
+  z-index: 98;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+@media screen and (max-height: 800px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 10px;
+  }
+  #main {
+    padding-top:  15px;
+  }
+  #main{
+    font-size: 10px;
+  }
+  #main .icon, #main .open{
+    height: 50px;
+    width: 60px;
+  }
+}
+

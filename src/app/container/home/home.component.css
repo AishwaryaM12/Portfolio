@@ -1,0 +1,39 @@
+.limit {
+	width: 32%;
+}
+@media screen and (max-width: 1000px) {
+	.head,
+	#special,
+	.exp,
+	.edu,
+	.skill {
+		flex-wrap: wrap;
+	}
+	img {
+		height: 450px;
+		min-width: 320px;
+	}
+	.wc,
+	.w,
+	.ww {
+		width: auto;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.sp {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.limit {
+		width: auto;
+	}
+	.box {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 1500px) {
+	.sp {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
